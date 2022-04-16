@@ -1,0 +1,28 @@
+{
+  "name": "mereconf",
+  "version": "0.0.1",
+  "description": "Mere Conf",
+  "type": "module",
+  "main": "index.js",
+  "author": "Django Janny <contact@djangojanny.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keltroth/mereconf.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "configuration",
+    "json",
+    "12factor"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "node.common.cjs",
+    "index.js",
+    "object-utils.js"
+  ]
+}
