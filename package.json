@@ -1,6 +1,6 @@
 {
   "name": "mereconf",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Mere Conf",
   "type": "module",
   "main": "index.js",
@@ -21,7 +21,6 @@
   "files": [
     "README.md",
     "LICENSE",
-    "node.common.cjs",
     "index.js",
     "object-utils.js"
   ]

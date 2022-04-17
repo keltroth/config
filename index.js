@@ -1,9 +1,8 @@
 import { access, readFile, writeFile } from 'fs/promises';
 import { setPath } from './object-utils.js';
-import { __dirname } from './node.common.cjs';
 
 // path to where node is executing
-const __rootdir = __dirname;
+const __rootdir = process.env.PWD;
 const __configdir = process.env.CONFIG_DIR || __rootdir;
 
 // path to config file
@@ -11,7 +10,7 @@ const configJson = `${__configdir}/config.json`;
 
 let config;
 
-// process dies if config.json is not found
+// process checks if config.json is found
 try {
     await access(configJson);
     // reading config.json
