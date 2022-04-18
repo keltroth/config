@@ -32,7 +32,11 @@ for (const envKey in process.env) {
         const path = envKey
             .replaceAll('_', '.')
             .toLowerCase();
-        setPath(path, config, process.env[envKey]);
+        try {
+            setPath(path, config, process.env[envKey]);
+        } catch(error) {
+            console.error(error);
+        }
     }
 }
 
