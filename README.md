@@ -1,4 +1,4 @@
-# Mere Conf
+# @keltroth/config
 
 Mere configuration loader
 

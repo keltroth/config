@@ -1,5 +1,5 @@
 {
-  "name": "mereconf",
+  "name": "@keltroth/config",
   "version": "0.0.4",
   "description": "Mere Conf",
   "type": "module",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keltroth/mereconf.git"
+    "url": "https://github.com/keltroth/config.git"
   },
   "engines": {
     "node": ">=10"
