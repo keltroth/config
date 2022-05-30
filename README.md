@@ -32,7 +32,7 @@ APPLICATION_PORT=9090
 Use configuration value :
 
 ```javascript
-import {config} from 'mereconf';
+import {config} from '@keltroth/config';
 console.log(config.application.port);
 ```
 
