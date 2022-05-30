@@ -1,6 +1,6 @@
 # @keltroth/config
 
-Mere configuration loader
+Configuration loader
 
 ## How to use
 
