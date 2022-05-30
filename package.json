@@ -1,7 +1,7 @@
 {
   "name": "@keltroth/config",
-  "version": "0.0.4",
-  "description": "Mere Conf",
+  "version": "0.0.5",
+  "description": "Configuration loader",
   "type": "module",
   "main": "index.js",
   "author": "Django Janny <contact@djangojanny.net>",
