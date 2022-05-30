@@ -7,7 +7,7 @@ Configuration loader
 Install
 
 ```bash
-npm install --save mereconf
+npm install --save @keltroth/config
 ```
 
 Create a `config.json` file :

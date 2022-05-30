@@ -17,6 +17,7 @@ try {
     config = JSON.parse((await readFile(new URL(configJson, import.meta.url))).toString());
 } catch (error) {
     console.debug('No config.json file found.');
+    config = {};
 }
 
 // adding rootdir to config object

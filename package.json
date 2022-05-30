@@ -1,6 +1,6 @@
 {
   "name": "@keltroth/config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Configuration loader",
   "type": "module",
   "main": "index.js",
