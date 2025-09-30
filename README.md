@@ -33,13 +33,9 @@ Use configuration value :
 
 ```javascript
 import {config} from '@keltroth/config';
-console.log(config.application.port);
+console.log(config.get('application.port'));
 ```
 
-Update configuration value :
+## TODO
 
-```javascript
-config.application.port=8080;
-config.save();
-```
-
+Save values (only if already present in json file)

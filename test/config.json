@@ -1,0 +1,8 @@
+{
+  "configTest": 12,
+  "deep": {
+    "obj": {
+      "value": 123
+    }
+  }
+}
